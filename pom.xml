@@ -11,6 +11,8 @@
   <modules>
     <module>eureka-server-helloword</module>
     <module>eureka-client-helloworld</module>
+    <module>eureka-cluster-server1</module>
+    <module>eureka-cluster-server2</module>
   </modules>
 
   <parent>
