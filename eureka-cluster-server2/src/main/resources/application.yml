@@ -2,8 +2,12 @@ server:
   port: 8092
 
 eureka:
+  instance:
+    #集群这个名字必须相同，如果没有填写，默认为unkown
+    appname: eureka-peer
+    hostname: eureka-peer2
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
-      defaultZone: http://localhost:8091/eureka/
+      defaultZone: http://eureka-peer1:8091/eureka/
