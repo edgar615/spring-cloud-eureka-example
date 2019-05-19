@@ -13,6 +13,7 @@
     <module>eureka-client-helloworld</module>
     <module>eureka-cluster-server1</module>
     <module>eureka-cluster-server2</module>
+    <module>eureka-cluster-client1</module>
   </modules>
 
   <parent>

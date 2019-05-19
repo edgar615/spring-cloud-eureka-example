@@ -1,0 +1,11 @@
+server:
+  port: 9000
+
+eureka:
+  client:
+    eurekaServiceUrlPollIntervalSeconds: 10
+    serviceUrl:
+      defaultZone: http://eureka-peer1:8091/eureka/
+spring:
+  application:
+    name: eureka-client
